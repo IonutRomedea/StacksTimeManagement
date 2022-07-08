@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Sass/style.css">
+    <title>Stacks Time Management</title>
+</head>
+<body>
+    <section>
+        <h1>Stacks Time Management</h1>
+        <div class="main-container">
+            <form action="/action_page.php">
+
+                <h2>Insert specs</h2>
+
+                <label for="fname">Cut:</label><br>
+                <input type="text" id="cuts" name="fname" value="0"><br><br>
+
+                <label for="lname">But Weld:</label><br>
+                <input type="text" id="welds" name="lname" value="0"><br><br>
+
+                <label for="lname">Single Hand Weld:</label><br>
+                <input type="text" id="shw" name="lname" value="0"><br><br>
+
+                <label for="lname">Triple Hand Welds:</label><br>
+                <input type="text" id="thw" name="lname" value="0"><br><br>
+
+                <label for="lname">Chamfer:</label><br>
+                <input type="text" id="chamfers" name="lname" value="0"><br><br>
+
+                <label for="lname">Trim:</label><br>
+                <input type="text" id="trims" name="lname" value="0"><br><br>
+
+                <button type="button" id="button">Check</button>
+            </form>
+            <div class="result">
+
+                <h2>Result</h2>
+                <p>Minutes:</p>
+                <p id="minutesOutput"></p>
+
+                <p>Hours:</p>
+                <p id="hoursOutput"></p>
+
+            </div>
+          </div>
+    </section>
+    
+    <script src="script.js"></script>    
+</body>
+</html>
