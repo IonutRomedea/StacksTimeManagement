@@ -22,15 +22,19 @@ h2 {
 }
 
 form {
+    width: 15%;
     border-right: 2px solid gray;
     margin: 10px 30px 10px 0px;
     padding-right: 30px;
+    outline: 1px solid red;
 
 }
 
 .result {
+    width: 15%;
     margin: 10px 30px 10px 0px;
     padding-right: 30px;
+    outline: 1px solid green;
 }
 
 p {
@@ -38,6 +42,7 @@ p {
 }
 
 input {
+    width: 50%;
     border: 1px solid black;
     padding-left: 5px;
 }
