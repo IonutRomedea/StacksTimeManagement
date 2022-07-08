@@ -42,10 +42,9 @@ input {
 }
 
 button {
-  background-color: black;
+  background-color: grey;
   color: white;
   padding: 3px 25px;
-  border: 1px solid white;
   border-radius: 7px;
   cursor: pointer;
   display: block;
