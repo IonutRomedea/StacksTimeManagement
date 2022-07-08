@@ -12,27 +12,23 @@ section {
 
 h1 {
   text-align: center;
-  margin-bottom: 30px;
-}
-
-h2 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
 form {
-  width: 15%;
-  border-right: 2px solid gray;
-  margin: 10px 30px 10px 0px;
-  padding-right: 30px;
-  outline: 1px solid red;
+  width: 100%;
+  border-bottom: 2px solid gray;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .result {
-  width: 15%;
-  margin: 10px 30px 10px 0px;
-  padding-right: 30px;
-  outline: 1px solid green;
+  width: 100%;
+  margin: 0 auto;
 }
 
 p {
@@ -40,18 +36,9 @@ p {
 }
 
 input {
-  width: 50%;
+  max-width: 90%;
   border: 1px solid black;
   padding-left: 5px;
-}
-
-.main-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 button {
