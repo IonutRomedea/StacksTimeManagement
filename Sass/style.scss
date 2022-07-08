@@ -8,8 +8,7 @@ section {
     border: 1px solid black;
     margin: 10px;
     padding: 5px;
-    //text-align: center;
-}
+};
 
 h1 {
     text-align: center;
@@ -18,42 +17,29 @@ h1 {
 
 h2 {
     margin-bottom: 10px;
-}
+};
 
 form {
     width: 100%;
     border-bottom: 2px solid gray;
-    //margin: 10px 30px 10px 0px;
     margin: 0 auto;
     padding-bottom: 10px;
-    
-
-}
+};
 
 .result {
     width: 100%;
-    //margin: 10px 30px 10px 0px;
-    margin: 0 auto;
-    
-}
+    margin: 0 auto; 
+};
 
 p {
     margin-bottom: 10px;
-}
+};
 
 input {
     max-width: 90%;
     border: 1px solid black;
     padding-left: 5px;
-}
-
-
-
-//.main-container {
-    //display: flex;
-    //justify-content: center;
-    //outline: 1px solid red;
-//}
+};
 
 button {
     background-color: black;
@@ -63,5 +49,4 @@ button {
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    
-}
+};
